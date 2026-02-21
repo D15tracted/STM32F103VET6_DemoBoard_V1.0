@@ -1,0 +1,171 @@
+(footprint "SOIC-8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.508 -3.941 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a934a6ba-975e-4ae3-bcf7-4a3390747f9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SOIC-8"
+		(at 0.254 3.425 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a938491b-6b48-4222-a1b5-9454199d41a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 2.54 -1.909 -90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24429c04-012c-4532-8ac3-c7d30bf94a8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.54 -1.909 -90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6813ad60-b2ad-4d3e-9cee-0f5fbc7e46ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2.54 -1.909 -90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca26a29b-b5c1-483a-bcc2-71ec705e07cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.27 -2.159)
+		(end 1.27 2.151)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "96a5fd01-b709-44b4-b915-3adfd0a49937")
+	)
+	(fp_circle
+		(center -1.27 -2.671)
+		(end -1.27 -2.3535)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fb91fea0-b3a7-4b23-862a-fd7b35a5233a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.254 0.123 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "53f98f8f-0e39-4d84-950a-485fe035c244")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -2.54 -1.909 270)
+		(size 0.65 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "23519322-6691-486e-8e43-c260a31bb432")
+	)
+	(pad "2" smd oval
+		(at -2.54 -0.639 270)
+		(size 0.65 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "55b1aa20-1460-4d2c-9512-e3cdc598d426")
+	)
+	(pad "3" smd oval
+		(at -2.54 0.631 270)
+		(size 0.65 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "a7d0d120-2538-4c5b-8a78-cb625fa21808")
+	)
+	(pad "4" smd oval
+		(at -2.54 1.901 270)
+		(size 0.65 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "bc37a440-e44e-4076-837a-f053ec71f8d5")
+	)
+	(pad "5" smd oval
+		(at 2.54 1.901 270)
+		(size 0.65 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "662fc207-eb60-4a26-a268-acafe15795aa")
+	)
+	(pad "6" smd oval
+		(at 2.54 0.631 270)
+		(size 0.65 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "94ba4c56-7e47-451d-bef4-ed562f69c3cb")
+	)
+	(pad "7" smd oval
+		(at 2.54 -0.639 270)
+		(size 0.65 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "87cf9fe8-6e01-402d-9292-b34178cd69a8")
+	)
+	(pad "8" smd oval
+		(at 2.54 -1.909 270)
+		(size 0.65 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "47bced9c-b424-4744-87c2-3fdc8cbb0e3c")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,132 @@
+(footprint "CR1220-2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2735686c-bc19-4e92-8770-6b072433f394")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CR1220-2"
+		(at 0 8.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3201c94f-49c8-4d66-88f6-c99442e4feac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4aaded0b-35d1-487c-9b79-ba0bda80843c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "434c54db-41c5-4e67-8bbb-07c476e54826")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9435aeab-73f3-47b1-b299-1323b55e38da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 -7.5)
+		(end 7.5 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a77998a9-15c6-4b77-afa3-40c25eba31c3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f203e246-991e-43a2-b735-698785935c11")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "91a6e708-0299-4966-b845-d64002466c55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -3.75 0)
+		(size 1.5 1.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6c2b0fc3-f436-4145-8f3d-59bcc54fff70")
+	)
+	(pad "" thru_hole circle
+		(at 3.75 0)
+		(size 1.5 1.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "67c06d46-1edf-4d8b-96a8-27667a516d01")
+	)
+	(pad "1" smd rect
+		(at -8.15 0)
+		(size 4.04 2.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d72a7066-a58b-4d18-a43b-ecda21c32266")
+	)
+	(pad "2" smd rect
+		(at 7.815 0)
+		(size 4.35 2.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1d914f92-e755-4974-a6e4-fd94f7e42582")
+	)
+)
